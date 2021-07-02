@@ -67,4 +67,11 @@ locals {
   stack = "aws-lab"
 }
 ```
+Como executar:
+```
+terragrunt init
 
+terragrunt plan
+
+terragrunt apply --auto-approve
+```
