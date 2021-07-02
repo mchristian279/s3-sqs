@@ -1,8 +1,9 @@
 locals {
   aws_region = "us-east-1"
-  account_id = ""
+  account_id = "yor-account-id-here"
   profile = "lab"
-  stack = "lab-aws"
+  stack = "aws-lab"
+}
 
 remote_state {
   backend = "s3"
